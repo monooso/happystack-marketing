@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Feature from '../components/Feature'
+import Footer from '../components/Footer'
 import Logo from '../components/Logo'
 
 export default function Home () {
@@ -77,9 +78,7 @@ export default function Home () {
         </div>
       </main>
 
-      <footer className='border-t mt-16 max-w-7xl mx-auto px-4 py-8 w-full sm:px-6 lg:px-8'>
-        <p className='text-base text-center text-gray-400 sm:text-left'>&copy; Manifest New Media Ltd. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
