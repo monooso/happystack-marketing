@@ -39,7 +39,7 @@ export default function Home() {
 
             <div className="mt-8 sm:max-w-lg">
               <p className="text-base font-medium text-gray-900">Get notified when Happy Stack launches</p>
-              <form action="#" method="POST" className="mt-3 sm:flex">
+              <form name="launch-list" method="POST" className="mt-3 sm:flex" data-netlify="true">
                 <label for="email" className="sr-only">Email</label>
                 <input type="email" name="email" id="email" required className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:flex-1 border-gray-300" placeholder="Enter your email" />
                 <button type="submit" className="mt-3 w-full px-6 py-3 border border-transparent transition text-base font-bold rounded-md text-yellow-900 bg-yellow-300 shadow-sm hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">Notify me</button>
