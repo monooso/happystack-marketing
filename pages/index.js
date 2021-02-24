@@ -7,7 +7,7 @@ export default function Home () {
     <div>
       <Head>
         <title>Happy Stack &middot; Service Monitoring for Web Agencies</title>
-        <description>Happy Stack monitors the services your client websites depend on, and notifies you if there’s a problem.</description>
+        <meta name='description' content='Happy Stack monitors the services your client websites depend on, and notifies you if there’s a problem.' />
         <link rel='icon' type='image/svg+xml' href='/logo.svg' />
       </Head>
 
