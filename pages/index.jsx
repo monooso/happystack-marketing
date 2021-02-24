@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Feature from '../components/Feature'
 import Footer from '../components/Footer'
-import Logo from '../components/Logo'
+import Header from '../components/Header'
 
 export default function Home () {
   return (
@@ -12,9 +12,7 @@ export default function Home () {
         <link rel='icon' type='image/svg+xml' href='/logo.svg' />
       </Head>
 
-      <header className='max-w-7xl mt-20 mx-auto px-6 w-full sm:px-8 lg:px-10'>
-        <div className='h-12 w-12'><Logo /></div>
-      </header>
+      <Header />
 
       <main>
         <div className='max-w-7xl mt-16 mx-auto px-4 sm:px-6 lg:px-8'>
