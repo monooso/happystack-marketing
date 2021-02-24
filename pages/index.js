@@ -11,7 +11,7 @@ export default function Home() {
 
       <header className="max-w-7xl mt-20 mx-auto px-6 w-full sm:px-8 lg:px-10">
         <svg className="h-12 -rotate-6 transform w-12" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 3000">
-          <g clip-path="url(#clip0)">
+          <g clipPath="url(#clip0)">
             <rect className="text-yellow-400" width="3000" height="3000" rx="500" fill="currentColor" />
             <path className="text-gray-900" d="M985.071 800L1294 1343.13l-117.86 60.74L919 953.648 661.857 1403.87 544 1343.13 852.929 800h132.142zM2175.07 800L2484 1343.13l-117.86 60.74L2109 953.648l-257.14 450.222-117.86-60.74L2042.93 800h132.14z" fill="currentColor" />
             <rect className="text-gray-900" x="1244" y="2050" width="540" height="150" rx="75" fill="currentColor" />
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="mt-8 sm:max-w-lg">
               <p className="text-base font-medium text-gray-900">Get notified when Happy Stack launches</p>
               <form name="launch-list" method="POST" className="mt-3 sm:flex" data-netlify="true">
-                <label for="email" className="sr-only">Email</label>
+                <label htmlFor="email" className="sr-only">Email</label>
                 <input type="email" name="email" id="email" required className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:flex-1 border-gray-300" placeholder="Enter your email" />
                 <button type="submit" className="mt-3 w-full px-6 py-3 border border-transparent transition text-base font-bold rounded-md text-yellow-900 bg-yellow-300 shadow-sm hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">Notify me</button>
               </form>
@@ -87,7 +87,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t mt-16 max-w-7xl mx-auto px-4 py-8 w-full sm:px-6 lg:px-8">
-        <p class="text-base text-center text-gray-400 sm:text-left">&copy; Manifest New Media Ltd. All rights reserved.</p>
+        <p className="text-base text-center text-gray-400 sm:text-left">&copy; Manifest New Media Ltd. All rights reserved.</p>
       </footer>
     </div>
   )
