@@ -47,9 +47,10 @@ export default function Home() {
             <Sleeve>
               <div className='py-4 sm:py-6 lg:py-8'>
                 <SlimContainer>
-                  <h2 className='font-semibold text-lg'>Get notified when Happy Stack launches</h2>
+                  <h2 className='font-semibold text-lg'>Request access</h2>
+                  <p className='mt-2 text-gray-500'>Happy Stack is in private beta. Enter your email to request early access.</p>
 
-                  <form action='/success' name='launch-list' method='POST' className='mt-3 sm:flex' data-netlify='true'>
+                  <form action='/success' name='launch-list' method='POST' className='mt-6' data-netlify='true'>
                     <input type='hidden' name='form-name' value='launch-list' />
 
                     <label htmlFor='email' className='sr-only'>Email</label>
@@ -67,7 +68,7 @@ export default function Home() {
         <div className='bg-indigo-700 mt-24'>
           <Container>
             <Sleeve>
-              <div className='pt-16 pb-20'>
+              <div className='pt-16 pb-24'>
                 <h2 className='text-3xl text-white font-bold'>Happy Stack helps you&hellip;</h2>
 
                 <dl className='mt-16 space-y-12 md:grid md:grid-cols-2 md:gap-24 md:space-y-0 lg:grid-cols-3'>
