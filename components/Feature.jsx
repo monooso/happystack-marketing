@@ -21,19 +21,17 @@ const icons = {
     </svg>`
 }
 
-export default function Feature ({ title, icon, children }) {
+export default function Feature({ title, icon, children }) {
   return (
-    <div className='flex'>
-      <div className='flex-shrink-0'>
-        <div className='flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-yellow-700'>
-          <div className='h-6 w-6' dangerouslySetInnerHTML={{ __html: icons[icon] }} />
-        </div>
+    <>
+      <div className='flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-indigo-50'>
+        <div className='h-6 w-6' dangerouslySetInnerHTML={{ __html: icons[icon] }} />
       </div>
 
-      <div className='ml-4'>
-        <dt className='text-lg leading-6 font-bold text-gray-900'>{title}</dt>
-        <dd className='mt-1 text-base text-gray-700'>{children}</dd>
+      <div className='mt-4'>
+        <dt className='text-lg font-semibold text-white'>{title}</dt>
+        <dd className='mt-1 text-indigo-200'>{children}</dd>
       </div>
-    </div>
+    </>
   )
 }

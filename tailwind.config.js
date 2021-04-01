@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -6,8 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: colors.warmGray,
-        orange: colors.orange
+        gray: colors.warmGray
+      },
+      fontFamily: {
+        sans: ['Inter', ...defaultTheme.fontFamily.sans]
       }
     }
   },

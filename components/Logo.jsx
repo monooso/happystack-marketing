@@ -1,14 +1,14 @@
 export default function Logo () {
   return (
-    <svg className='-rotate-6 transform' fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3000 3000'>
-      <g clipPath='url(#clip0)'>
-        <rect className='text-yellow-400' width='3000' height='3000' rx='500' fill='currentColor' />
-        <path className='text-gray-900' d='M985.071 800L1294 1343.13l-117.86 60.74L919 953.648 661.857 1403.87 544 1343.13 852.929 800h132.142zM2175.07 800L2484 1343.13l-117.86 60.74L2109 953.648l-257.14 450.222-117.86-60.74L2042.93 800h132.14z' fill='currentColor' />
-        <rect className='text-gray-900' x='1244' y='2050' width='540' height='150' rx='75' fill='currentColor' />
+    <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 512 512'>
+      <g clip-path='url(#clip0)'>
+        <path fill='#FBBF24' d='M102.4 341.333L0 398.222 204.8 512 512 341.333l-102.4-56.888-204.8 113.777-102.4-56.889z' />
+        <path fill='#F59E0B' d='M102.4 227.556L0 284.445l102.4 56.888 102.4-56.888-102.4-56.889zM307.2 227.556l102.4 56.889L512 227.556l-102.4-56.889-102.4 56.889z' />
+        <path fill='#D97706' d='M307.2 0L0 170.667l102.4 56.889 204.8-113.778 102.4 56.889L512 113.778 307.2 0z' />
       </g>
       <defs>
         <clipPath id='clip0'>
-          <path fill='none' d='M0 0h3000v3000H0z' />
+          <path fill='#fff' d='M0 0h512v512H0z' />
         </clipPath>
       </defs>
     </svg>

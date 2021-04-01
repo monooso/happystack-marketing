@@ -1,14 +1,18 @@
-import Link from 'next/link'
+import Container from './Container'
 import Logo from './Logo'
+import Sleeve from './Sleeve'
 
-export default function Header ({ linkTarget }) {
-  const logo = linkTarget
-    ? <Link href={linkTarget}><a><Logo /></a></Link>
-    : <Logo />
-
+export default function Header () {
   return (
-    <header className='max-w-7xl mt-20 mx-auto px-6 w-full sm:px-8 lg:px-10'>
-      <div className='h-12 w-12'>{logo}</div>
+    <header className='mb-24 mt-12'>
+      <Container>
+        <Sleeve>
+          <div className='flex items-center'>
+            <div className='h-6 w-6'><Logo /></div>
+            <div className='font-bold ml-2'>Happy Stack</div>
+          </div>
+        </Sleeve>
+      </Container>
     </header>
   )
 }
