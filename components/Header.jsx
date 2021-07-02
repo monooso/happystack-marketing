@@ -12,11 +12,6 @@ export default function Header () {
               <div className='h-6 w-6'><Logo /></div>
               <div className='font-bold ml-2 text-lg'>Happy Stack</div>
             </div>
-
-            <div className='text-gray-500'>
-              In the beta?
-              <a className='ml-2 text-gray-700 underline' href='https://go.happystack.app/login'>Log in</a>
-            </div>
           </div>
         </Sleeve>
       </Container>
